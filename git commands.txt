@@ -1,0 +1,24 @@
+Git Commands 
+
+git --version  It shows the version of git is installed on your machine.
+git init  It will initialize the project folder into a "git repo".
+git status In simple terms, it will show you exactly which files / folders have been modified.
+git add  It will add all your files to the git staging area. You can also add individual files to the staging area.
+git diff  It will show the difference between a file in the staging area and file that's present in the working tree ( Untracked file )
+git commit -m 'msg'  It will save your changes to your local repository. It's good practice to include proper commit message which helps in debugging
+git push It will push all the local changes that you've made to the remote github repository
+git pull  It will pull ( fetch ) all the updated code from the remote branch and merge it with your local branch
+git log It will list down the entire commit history i.e, all the commits that you've made till now
+git branch <name> This command is used to create a new branch in your local git repository
+git branch It will list down all the local branches that you've created
+git branch -a It will list down all the branches i.e, local branches + remote branches that's available for checkout
+git branch -D <name> It will forcefully delete the specified local branch ( even if the changes are not committed )
+git checkout <branch_name> It's used to switch between local git branches
+git stash It's used to temporarily remove the changes that you've made on the working tree
+git remote It will give the name of the remote repository For e.g," origin " or " upstream "
+git remote -v It will give the name as well as the url of the remote repository
+
+
+
+
+
